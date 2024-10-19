@@ -1,10 +1,12 @@
-import './App.css';
+
+import TitlebarImageList from './Image';
+
 
 function App() {
   return (
-    <div className="App">
-      Photography Collection
-    </div>
+   <>
+   <TitlebarImageList/>
+   </>
   );
 }
 
