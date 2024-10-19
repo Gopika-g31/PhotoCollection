@@ -1,2 +1,0 @@
-# PhotoCollection
-My Photography collection
