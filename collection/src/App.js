@@ -1,24 +1,24 @@
-import { useEffect, useState } from "react";
+
+import { LoaderPage } from "./components/LoaderPage";
+import './assets/LoaderPage.css'
 import { HomePage } from "./components/HomePage";
-import { LoadingPage } from "./components/LoadingPage";
+import { useEffect, useState } from "react";
+
 
 function App() {
-  const [showLoadingPage, setShowLoadingPage] = useState(true)
-  useEffect(() => {
-    setTimeout(() => {
-      setShowLoadingPage(false);
-    }, 3500)
-  })
+   const [showLoadingPage, setShowLoadingPage] = useState(true)
+    useEffect(() => {
+      setTimeout(() => {
+        setShowLoadingPage(false);
+      }, 3500)
+    })
+
 
   return (
     <>
-      {
-        showLoadingPage ? <LoadingPage /> : <>
-          <HomePage />
-        </>
-
-      }
-
+   {
+     showLoadingPage ? <LoaderPage/> :<HomePage/>
+   }
     </>
   );
 }
