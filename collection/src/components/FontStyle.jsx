@@ -1,16 +1,25 @@
-export const Heading = {
-    fontFamily: '"The Nautigal", serif', fontSize: '24px', letterSpacing: '3px', fontWeight: 'bolder'
+export const heading = {
+    color: '#fff',
+    fontFamily: '"Montserrat", serif',
+    fontSize:'18px',
+    fontWeight: 500,
+    //letterSpacing: 1,
+    my:1,
+    textAlign: 'justify',
+
 }
-/**Greyout text */
-export const ThinText = {
-    fontFamily: '"Newsreader", serif',
-    fontSize: '14px',
-    fontWeight: 300
+export const textContent = {
+    color: '#fff',
+    fontFamily: '"Montserrat", serif',
+    fontWeight: 400,
+    letterSpacing: 'normal',
+    my:1,
+    textAlign: 'justify',
+    fontSize:'16px',
 }
 
-export const subheading={
-  fontFamily: '"Newsreader", serif', fontSize: '18px', letterSpacing: 'normal', fontWeight: 500
-}
-export const bodyText={
-    fontFamily: '"Newsreader", serif', fontSize: '16px', letterSpacing: 'normal', fontWeight: 400,color:'#000',textAlign:'justify'
+export const iconStyle={
+    verticalAlign:'middle',
+    fontSixe:'18px',
+    mx:1
 }
